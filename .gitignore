@@ -218,6 +218,5 @@ pip-log.txt
 #keil
 output/*
 assemble/*
-Scf/
-*.scf
+Scf/*.scf
 *.bak
