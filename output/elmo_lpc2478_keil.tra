@@ -1,0 +1,32 @@
+*** Creating Trace Output File '.\output\elmo_lpc2478_keil.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\isr.o"'
+### List of Objects: adding '".\output\elmo_velocity.o"'
+### List of Objects: adding '".\output\filter.o"'
+### List of Objects: adding '".\output\miscellaneous.o"'
+### List of Objects: adding '".\output\target.o"'
+### List of Objects: adding '".\output\utility.o"'
+### List of Objects: adding '".\output\lpc2400can.o"'
+### List of Objects: adding '".\output\sdo.o"'
+### List of Objects: adding '".\output\motor.o"'
+### List of Objects: adding '".\output\timer.o"'
+### List of Objects: adding '".\output\uart.o"'
+### List of Objects: adding '".\output\ssi.o"'
+### List of Objects: adding '".\output\norflash.o"'
+### List of Objects: adding '".\output\irq.o"'
+### List of Objects: adding '".\output\startup.o"'
+### List of Objects: adding '".\output\viccontrol.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\output\isr.o" ".\output\elmo_velocity.o" ".\output\filter.o" ".\output\miscellaneous.o" ".\output\target.o" ".\output\utility.o" ".\output\lpc2400can.o" ".\output\sdo.o" ".\output\motor.o" ".\output\timer.o" ".\output\uart.o" ".\output\ssi.o" ".\output\norflash.o" ".\output\irq.o" ".\output\startup.o" ".\output\viccontrol.o" --nodebug --strict --scatter ".\Scf\lpc2478_chipflash_keil.sct" 
+--entry 0x00000000 --summary_stderr --info summarysizes -o ".\output\elmo_lpc2478_keil.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\elmo_lpc2478_keil.axf'
+### ADS-LD Command File: '.\output\elmo_lpc2478_keil.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\elmo_lpc2478_keil.lnp', Handle=0x0000035C
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\elmo_lpc2478_keil.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

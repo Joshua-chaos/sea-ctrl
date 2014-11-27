@@ -1,0 +1,9 @@
+encoder1：电机端编码器
+encoder0：负载端编码器
+速度正方向：从左侧看，顺时针
+HIP:
+#define Joint_ID  (0x0&0xF)
+#define Axis_ID   (0x1&0x3)
+KNEE:
+#define Joint_ID  (0x1&0xF)
+#define Axis_ID   (0x1&0x3)
