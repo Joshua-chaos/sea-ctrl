@@ -23,3 +23,5 @@
 
 #keil
 output/
+assemble/
+*.scf
