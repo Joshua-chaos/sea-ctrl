@@ -1,0 +1,2 @@
+--cpu ARM7TDMI ".\output\isr.o" ".\output\elmo_velocity.o" ".\output\filter.o" ".\output\miscellaneous.o" ".\output\target.o" ".\output\utility.o" ".\output\lpc2400can.o" ".\output\sdo.o" ".\output\motor.o" ".\output\timer.o" ".\output\uart.o" ".\output\ssi.o" ".\output\norflash.o" ".\output\irq.o" ".\output\startup.o" ".\output\viccontrol.o" --nodebug --strict --scatter ".\Scf\lpc2478_chipflash_keil.sct" 
+--entry 0x00000000 --summary_stderr --info summarysizes -o ".\output\elmo_lpc2478_keil.axf"
