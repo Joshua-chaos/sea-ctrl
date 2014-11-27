@@ -216,8 +216,8 @@ pip-log.txt
 .mr.developer.cfg
 
 #keil
-output/
-assemble/
+output/*
+assemble/*
 Scf/
 *.scf
 *.bak
